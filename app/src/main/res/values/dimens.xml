@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imgwidth">150dp</dimen>
+    <dimen name="imgheigh">150dp</dimen>
+    <dimen name="textmargin">10dp</dimen>
+    <dimen name="textsizeNa">20sp</dimen>
+    <dimen name="textemailsize">15sp</dimen>
+    <dimen name="buttonheight1">52dp</dimen>
+    <dimen name="marginstart">40dp</dimen>
+    <dimen name="marginend">40dp</dimen>
+    <dimen name="margintop">13dp</dimen>
+    <dimen name="drawablepadding">15dp</dimen>
+    <dimen name="paddingstart">20dp</dimen>
+    <dimen name="textsizebutton">18sp</dimen>
+    <dimen name="buttonheight2">55dp</dimen>
+    <dimen name="marginstart2">45dp</dimen>
+    <dimen name="marginend2">45dp</dimen>
+    <dimen name="textsizebutton2">16sp</dimen>
+</resources>

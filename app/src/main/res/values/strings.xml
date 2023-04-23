@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">profile</string>
+    <string name="nanami_kento">Nanami Kento</string>
+    <string name="nanamikento_gmail_com">nanamikento@gmail.com</string>
+    <string name="my_reviews">My Reviews</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="notification">Notification</string>
+    <string name="fingerprint_settings">Fingerprint Settings</string>
+    <string name="back_to_main_page">Back to Main page</string>
+</resources>

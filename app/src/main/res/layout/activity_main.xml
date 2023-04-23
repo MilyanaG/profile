@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorback"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:src="@drawable/top_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/imgwidth"
+        android:layout_height="@dimen/imgheigh"
+        android:src="@drawable/nanami"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/textmargin"
+        android:text="@string/nanami_kento"
+        android:textColor="@color/colortext"
+        android:textSize="@dimen/textsizeNa"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nanamikento_gmail_com"
+        android:textColor="@color/colortext"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:textSize="@dimen/textemailsize"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView1">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buttonheight1"
+            android:text="@string/my_reviews"
+            android:layout_marginStart="@dimen/marginstart"
+            android:layout_marginEnd="@dimen/marginend"
+            android:layout_marginTop="@dimen/margintop"
+            android:drawableStart="@drawable/ic_1"
+            android:drawablePadding="@dimen/drawablepadding"
+            android:paddingStart="@dimen/paddingstart"
+            android:gravity="center_vertical"
+            android:background="@drawable/stylebutton1"
+            android:textAllCaps="false"
+            android:textSize="@dimen/textsizebutton"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buttonheight1"
+            android:text="@string/account_settings"
+            android:layout_marginStart="@dimen/marginstart"
+            android:layout_marginEnd="@dimen/marginend"
+            android:layout_marginTop="@dimen/margintop"
+            android:drawableStart="@drawable/ic_2"
+            android:drawablePadding="@dimen/drawablepadding"
+            android:paddingStart="@dimen/paddingstart"
+            android:gravity="center_vertical"
+            android:background="@drawable/stylebutton1"
+            android:textAllCaps="false"
+            android:textSize="@dimen/textsizebutton"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buttonheight1"
+            android:text="@string/personal_information"
+            android:layout_marginStart="@dimen/marginstart"
+            android:layout_marginEnd="@dimen/marginend"
+            android:layout_marginTop="@dimen/margintop"
+            android:drawableStart="@drawable/ic_3"
+            android:drawablePadding="@dimen/drawablepadding"
+            android:paddingStart="@dimen/paddingstart"
+            android:gravity="center_vertical"
+            android:background="@drawable/stylebutton1"
+            android:textAllCaps="false"
+            android:textSize="@dimen/textsizebutton"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buttonheight1"
+            android:text="@string/notification"
+            android:layout_marginStart="@dimen/marginstart"
+            android:layout_marginEnd="@dimen/marginend"
+            android:layout_marginTop="@dimen/margintop"
+            android:drawableStart="@drawable/ic_4"
+            android:drawablePadding="@dimen/drawablepadding"
+            android:paddingStart="@dimen/paddingstart"
+            android:gravity="center_vertical"
+            android:background="@drawable/stylebutton1"
+            android:textAllCaps="false"
+            android:textSize="@dimen/textsizebutton"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buttonheight1"
+            android:text="@string/fingerprint_settings"
+            android:layout_marginStart="@dimen/marginstart"
+            android:layout_marginEnd="@dimen/marginend"
+            android:layout_marginTop="@dimen/margintop"
+            android:drawableStart="@drawable/ic_5"
+            android:drawablePadding="@dimen/drawablepadding"
+            android:paddingStart="@dimen/paddingstart"
+            android:gravity="center_vertical"
+            android:background="@drawable/stylebutton1"
+            android:textAllCaps="false"
+            android:textSize="@dimen/textsizebutton"
+            />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/buttonheight2"
+    android:text="@string/back_to_main_page"
+    android:textAllCaps="false"
+    android:layout_marginStart="@dimen/marginstart2"
+    android:layout_marginTop="@dimen/margintop"
+    android:layout_marginEnd="@dimen/marginend2"
+    android:background="@drawable/stylebutton2"
+    android:textStyle="bold"
+    android:textSize="@dimen/textsizebutton2"
+    >
+</Button>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
